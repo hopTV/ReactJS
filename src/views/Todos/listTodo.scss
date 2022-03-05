@@ -1,0 +1,22 @@
+.container {
+  .add-todo {
+    .add {
+      margin: 0 5px;
+    }
+  }
+  .list-todo {
+    width: 400px;
+    margin: 0 auto;
+    .todo-child {
+      &:first-child {
+        border-top: 1px solid gray;
+      }
+      .edit {
+        margin: 0 10px;
+      }
+      height: 40px;
+      border-bottom: 1px solid gray;
+      margin: 10px;
+    }
+  }
+}
